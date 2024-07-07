@@ -1,38 +1,89 @@
-.App {
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2");
+}
+
+html{
+    min-height: 100%
+}
+
+h1, h4{
   text-align: center;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #163D57
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+svg{
+    background-color: #fff;
+    /*box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
+    /*border-radius: 5px; */
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+    display: flex;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.cell:hover{
+    fill: black
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+g{
+    color: #000
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+}
+
+
+#title{
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #000;
+}
+
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
 }
