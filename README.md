@@ -2,7 +2,7 @@
 
 People often wonder how to visualize data in React similar to how it's done in Python to create a full dashboard. For this purpose, JavaScript provides a library called D3 or D3.js, which stands for Data Driven Documents. It is used for creating dynamic and interactive data visualizations in the browser. D3 is built to work with common web standards – namely HTML, CSS, and Scalable Vector Graphics (SVG). D3 supports many different kinds of input data formats. Then, using its powerful built-in methods, you can transform those data into different charts, graphs, and maps.
 
-In this project, I created a web app using React and D3 with a dataset provided by FreeCodeCamp. This project visualizes data to create a Heat Map graph.
+In this project, I created a Heat Map using D3 with a dataset provided by FreeCodeCamp. 
 
 You can learn more about this topic by visiting the FreeCodeCamp website: [FreeCodeCamp Data Visualization](https://www.freecodecamp.org/learn/data-visualization/)
 
